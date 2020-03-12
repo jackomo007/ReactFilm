@@ -1,0 +1,37 @@
+.App {
+  padding-top: 36px;
+  text-align: center;
+}
+
+.SearchForm-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.MovieList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.MovieList-item {
+  margin-bottom: 24px;
+  width: 48%;
+  border-style: inset;
+}
+
+.Houston {
+  font-weight: 300;
+  font-size: xx-large;
+}
+
+.back-button {
+  transform: rotateZ(180deg);
+  color: rgb(242, 26, 7);
+}
+
+button.button.btn-back {
+  color: white;
+  background-color: rgb(20, 7, 37);
+}
