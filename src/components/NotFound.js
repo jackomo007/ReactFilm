@@ -16,7 +16,7 @@ export default class NotFound extends React.Component {
     return (
       <div>
         <p className="Houston">Houston... we have a problem.</p>
-        <Lottie options={defaultOptions} height={400} width={800} />
+        <Lottie options={defaultOptions} />
       </div>
     );
   }

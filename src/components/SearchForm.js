@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 const API_KEY = "7ccc0697";
 
-class SearchForm extends Component {
+export class SearchForm extends Component {
   state = { inputMovie: "" };
 
   _handleChange = e => {
@@ -41,5 +41,3 @@ class SearchForm extends Component {
     );
   }
 }
-
-export default SearchForm;
