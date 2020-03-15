@@ -4,7 +4,7 @@
 <p align="center"><img width="700" height ="500" src="https://res.cloudinary.com/dvm6sgg1h/image/upload/v1584268913/FilmSpaceStation/tbze1uxdm46ch8e8pq1r.jpg"></p>
 <p align="center">Main</p>
 
-<p align="center"><img width="300" height ="500" src="https://res.cloudinary.com/dvm6sgg1h/image/upload/v1584232571/FilmSpaceStation/sthlteoyh9tqb15bjgcx.gif"></p>
+<p align="center"><img width="300" height ="500" src="https://res.cloudinary.com/dvm6sgg1h/image/upload/v1584269743/FilmSpaceStation/lhj7psz2mnyza0tvenq4.gif"></p>
 <p align="center">404</p>
 
 
