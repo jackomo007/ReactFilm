@@ -3,6 +3,7 @@ import { Title } from "../components/Title";
 import { SearchForm } from "../components/SearchForm";
 import { MoviesList } from "../components/MoviesList";
 import NotFound from "../components/NotFound";
+import Principal from "../components/Principal";
 
 
 export class Home extends Component {
@@ -22,14 +23,17 @@ export class Home extends Component {
     render () {
         return (
             <div>
-                <Title>"Movie Searcher"</Title>
+                <Title>Films Space Station</Title>
                 <div className="SearchForm-wrapper">
                 <SearchForm onResults={this._handleResults} />
                 </div>
                 {this.state.usedSearch ? (
                 this._renderResults()
                 ) : (
-                <small>Use the form to search a movie.</small>
+                <div>
+                  <small>Use the form to search a movie.</small>
+                  <Principal />
+                </div>
                 )}
             </div>
         )

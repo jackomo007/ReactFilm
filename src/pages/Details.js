@@ -30,17 +30,35 @@ export class Details extends Component {
     const { Title, Poster, Actors, Metascore, Plot } = this.state.movie;
     return (
       <div>
-        <button className="button btn-back" onClick={this._goBack}>
-          <span className="icon back-button">
-            <i className="fas fa-space-shuttle"></i>
-          </span>
-          <span>Go back</span>
-        </button>
-        <h1>{Title}</h1>
-        <img src={Poster} alt={Title} />
-        <h3>{Actors}</h3>
-        <span>{Metascore}</span>
-        <p>{Plot}</p>
+        <div className="buttons has-addons is-left back">
+          <button className="button btn-back" onClick={this._goBack}>
+            <span className="icon back-button">
+              <i className="fas fa-space-shuttle"></i>
+            </span>
+            <span>Go back</span>
+          </button>
+        </div>
+        <section className="hero is-medium is-bold hero-details">
+          <div className="hero-body ">
+            <div className="container">
+              <h1 className="title">
+              {Title}
+              </h1>
+              <img src={Poster} alt={Title} />
+              <br></br>
+              <span className="icon actors">
+                <i className="fas fa-star"></i>
+              </span>
+              <h2 className="subtitle">
+              {Actors}
+              </h2>
+              <span className="icon history">
+                <i className="fas fa-history"></i>
+              </span>
+              <p className="description">{Plot}</p>
+            </div>
+          </div>
+        </section>
       </div>
     );
   }

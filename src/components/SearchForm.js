@@ -29,12 +29,17 @@ export class SearchForm extends Component {
             <input
               className="input"
               type="text"
-              placeholder="Find a movie"
+              placeholder="Movie name..."
               onChange={this._handleChange}
             />
           </div>
           <div className="control">
-            <button className="button is-info">Search Movies</button>
+            <button className="button search">
+            <span className="icon">
+            <i className="fas fa-rocket"></i>
+          </span>
+          <span>Beam me up scotty!</span>
+            </button>
           </div>
         </div>
       </form>

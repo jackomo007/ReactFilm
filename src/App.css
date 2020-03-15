@@ -19,6 +19,9 @@
   margin-bottom: 24px;
   width: 48%;
   border-style: inset;
+  background: linear-gradient(to right, #da4453, #89216b);;
+  border-radius: 0px 0px 100px 100px;
+  margin-bottom: 29px;
 }
 
 .Houston {
@@ -34,4 +37,57 @@
 button.button.btn-back {
   color: white;
   background-color: rgb(20, 7, 37);
+}
+
+button.button.search{
+  background-color: #5a2147;
+  color: white;
+}
+
+.animation-top{
+  padding-top: 40px;
+}
+
+div.buttons.has-addons.is-left.back{
+  padding-left: 2%;
+}
+
+span.icon.actors{
+  color: gold;
+  margin-right: 1%;
+}
+
+span.icon.history{
+  color: #59c575;
+  margin-right: 1%;
+}
+
+.hero-details{
+  border-radius: 3px 3px 268px 268px;
+}
+
+p.title.is-4.white{
+  color: bisque;
+  text-align: center;
+}
+
+p.subtitle.is-6.green{
+  color: rgb(24, 209, 24);
+  text-align: center;
+}
+
+section.hero.is-medium.is-bold.hero-details{
+  background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+
+h2.subtitle{
+  color:white
+}
+
+p.description{
+  color:whitesmoke
+}
+
+h1.title{
+  color: #3298dc
 }
