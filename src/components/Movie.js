@@ -16,7 +16,7 @@ export default class Movie extends Component {
       <a href={`?id=${id}`} className="card">
         <div className="card-image">
           <figure className="image">
-            <img src={poster} alt={title} />
+            <img src={poster === "N/A" ? "/lost-404.jpg" : poster} alt={title} />
           </figure>
         </div>
         <div className="card-content">
